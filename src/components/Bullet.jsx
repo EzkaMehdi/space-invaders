@@ -10,6 +10,7 @@ class Bullet extends React.Component {
             <img
                 className='bulletImg'
                 src={BulletImg}
+                alt=""
                 style={{
                     gridColumnStart: this.props.gridPositionColumn, gridRowStart: this.props.gridPositionRow,
                     display: this.props.display
